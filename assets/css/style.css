@@ -657,7 +657,11 @@ a{
     width: 28px;
     height: 28px;
     border-radius: 3px;
-    margin-left: 8px;
+    background: #F9F9F9;
+}
+
+.footer .social-link + .social-link{
+    margin-left: 16px;
 }
 
 .footer .social-link:hover{
