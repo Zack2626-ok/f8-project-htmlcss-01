@@ -71,6 +71,9 @@ a{
 
 .hero-wrap{
     position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background: #e6f0ff;
     height: calc(100vh - 80px);
 }
@@ -115,15 +118,11 @@ a{
     border-radius: 8px;
 }
 
-.hero{
-    padding-top: 130px;
-}
-
-.hero .info{
+.hero-wrap .info{
     width: 51%;
 }
 
-.hero .sub-title{
+.hero-wrap .sub-title{
     color: #687690;
     font-size: 1.8rem;
     line-height: 1.5;
@@ -131,7 +130,7 @@ a{
     letter-spacing: 0.01em;
 }
 
-.hero .title{
+.hero-wrap .title{
     color: #000336;
 
     margin-top: 8px;
@@ -141,7 +140,7 @@ a{
     line-height: 1.19; /* 118.75% */
 }
 
-.hero .desc{
+.hero-wrap .desc{
     color: #5A6473;
     margin-top: 30px;
     font-size: 1.8rem;
@@ -150,12 +149,12 @@ a{
     line-height: 1.78; /* 177.778% */
 }
 
-.hero-cta{
+.hero-wrap .hero-cta{
     min-width: 170px;
     margin-top: 40px;
 }
 
-.hero-img{
+.hero-wrap .hero-img{
     width: 520px;
     max-width: 100%;
     position: absolute;
